@@ -10,7 +10,15 @@ import { Project } from '@app/models/Project';
 })
 export class ProjectFormComponent implements OnInit {
 @Output() submitted= new EventEmitter<Project>()
-  constructor() { }
+@Output() test= new EventEmitter<string>()
+  constructor() {
+     setTimeout (() => 
+      {
+    console.log("scatta")  
+   this.test.emit(" Ciao sono stringa")
+   }, 3000)
+}
+
 
   ngOnInit(): void {
   }

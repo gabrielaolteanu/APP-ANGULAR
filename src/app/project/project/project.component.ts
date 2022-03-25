@@ -61,5 +61,10 @@ export class ProjectComponent implements OnInit {
      done: false,
      tasks:[]
    });
+  };
+
+  testMethod(str: string){
+    console.log("Stringa ricevuta dal parent", str)
   }
+
 }
