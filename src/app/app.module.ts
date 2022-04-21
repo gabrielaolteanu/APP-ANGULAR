@@ -7,6 +7,10 @@ import { ProjectContainerComponent } from './project/project-container/project-c
 import { ProjectDetailComponent } from './project/project-detail/project-detail.component';
 import { ProjectFormComponent } from './project/project-form/project-form.component';
 import { ProjectListComponent } from './project/project-list/project-list.component';
+import { HomeComponent } from './dashboard/home/home.component';
+import { AppRoutingModule } from './app-routing.module';
+import { NavbarComponent } from './layout/navbar/navbar.component';
+import { SectionHeaderComponent } from './shared/section-header/section-header.component';
 
 
 @NgModule({
@@ -15,11 +19,15 @@ import { ProjectListComponent } from './project/project-list/project-list.compon
     ProjectContainerComponent,
     ProjectDetailComponent,
     ProjectFormComponent,
-    ProjectListComponent
+    ProjectListComponent,
+    HomeComponent,
+    NavbarComponent,
+    SectionHeaderComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
