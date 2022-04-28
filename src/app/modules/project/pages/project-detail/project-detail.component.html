@@ -1,0 +1,12 @@
+<ngprj-section-header [button]="{label: 'Torna ai Projetti', link:'/projects', type:'btn-primary'}">
+</ngprj-section-header>
+<ng-container *ngIf="project$ | async as project">
+  <div class="container-fluid py-5">
+    <div class="card">
+      <div class="card body">
+        <h1 class="diplay-5 fw-bold ">{{ project.name}}</h1>
+        <p class="">{{ project.description}}</p>
+      </div>
+    </div>
+  </div>
+</ng-container>
