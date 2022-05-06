@@ -1,0 +1,67 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "code": "NHusYJl",
+      "name": "Progetto Alpha",
+      "description": "Lorem ipsum dolor sit amet.",
+      "start": "2019-10-20",
+      "end": "2019-10-25",
+      "priority": "medium",
+      "done": true,
+      "tasks": []
+    },
+    {
+      "id": 2,
+      "code": "SJieYKl",
+      "name": "Progetto Beta",
+      "description": "Lorem ipsum dolor sit amet.",
+      "start": "2019-04-10",
+      "end": "2019-05-13",
+      "priority": "low",
+      "done": true,
+      "tasks": []
+    },
+    {
+      "id": 3,
+      "code": "POjeGBs",
+      "name": "Progetto Gamma",
+      "description": "Lorem ipsum dolor sit amet.",
+      "start": "2019-02-07",
+      "priority": "low",
+      "done": false,
+      "tasks": []
+    },
+    {
+      "name": "Progetto Gabri",
+      "priority": "high",
+      "start": "2022-06-01",
+      "description": "a",
+      "code": "98qz5iy",
+      "done": false,
+      "tasks": [],
+      "id": 4
+    },
+    {
+      "name": "",
+      "priority": "",
+      "start": "",
+      "description": "",
+      "code": "ffzz2t3",
+      "done": false,
+      "tasks": [],
+      "id": 5
+    },
+    {
+      "name": "",
+      "priority": "",
+      "start": "",
+      "description": "",
+      "code": "1i964oi",
+      "done": false,
+      "tasks": [],
+      "id": 6
+    }
+  ],
+  "tasks": []
+}
